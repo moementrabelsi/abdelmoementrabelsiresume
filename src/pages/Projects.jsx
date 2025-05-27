@@ -248,14 +248,14 @@ const Projects = () => {
         <div className="max-w-screen-xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-10 text-center">Explore More on GitHub</h2>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="flex flex-col space-y-10">
             {/* GitHub Contributions */}
             <div>
               <GitHubContributions username="moementrabelsi" />
             </div>
             
             {/* GitHub Profile Info */}
-            <div className="bg-rn-gray rounded-lg p-6 flex flex-col justify-center items-center text-center">
+            <div className="bg-rn-gray rounded-lg p-8 flex flex-col justify-center items-center text-center">
               <h3 className="text-2xl font-bold mb-6">My Repositories</h3>
               <p className="text-lg max-w-xl mb-8">
                 Check out my GitHub repositories for more projects, contributions, and code samples.

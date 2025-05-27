@@ -96,11 +96,11 @@ const GitHubContributions = ({ username = 'moementrabelsi' }) => {
           )}
           
           {/* GitHub Contribution Calendar */}
-          <div className="mt-6 bg-rn-darker rounded-lg p-4 overflow-hidden">
+          <div className="mt-6 bg-rn-darker rounded-lg p-4 overflow-hidden h-52">
             <h4 className="text-lg font-medium mb-4">{t('projects.contributionGraph')}</h4>
             <div className="github-contribution-calendar">
               {/* GitHub contribution calendar iframe (responsive) */}
-              <div className="relative pb-[40%] h-0 overflow-hidden rounded-md bg-rn-darker">
+              <div className="relative pb-[30%] h-0 overflow-hidden rounded-md bg-rn-darker">
                 <iframe 
                   src={`https://ghchart.rshah.org/${username}`} 
                   style={{ 
@@ -111,7 +111,9 @@ const GitHubContributions = ({ username = 'moementrabelsi' }) => {
                     height: '100%',
                     border: 'none',
                     background: 'transparent',
-                    filter: 'invert(1) hue-rotate(180deg)'
+                    filter: 'invert(1) hue-rotate(180deg) brightness(0.8) contrast(1.5)',
+                    transform: 'scale(1.02)',
+                    padding: '0 10px'
                   }}
                   title={`${username}'s GitHub Contribution Chart`}
                   frameBorder="0"
