@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from '../components/ProjectCard';
+import GitHubContributions from '../components/GitHubContributions';
 
 // Import project media
 import project1Image1 from '../assets/projects/project1-image1.jpg';
@@ -242,23 +243,33 @@ const Projects = () => {
         </div>
       </section>
 
-
-
       {/* GitHub Section */}
       <section className="py-20">
-        <div className="max-w-screen-xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-8">Explore More on GitHub</h2>
-          <p className="text-xl max-w-3xl mx-auto mb-12">
-            Check out my GitHub repositories for more projects, contributions, and code samples.
-          </p>
-          <a
-            href="https://github.com/moementrabelsi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-3 bg-black text-white text-sm uppercase tracking-widest font-medium hover:bg-gray-800 transition-colors"
-          >
-            Visit GitHub Profile
-          </a>
+        <div className="max-w-screen-xl mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-10 text-center">Explore More on GitHub</h2>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            {/* GitHub Contributions */}
+            <div>
+              <GitHubContributions username="moementrabelsi" />
+            </div>
+            
+            {/* GitHub Profile Info */}
+            <div className="bg-rn-gray rounded-lg p-6 flex flex-col justify-center items-center text-center">
+              <h3 className="text-2xl font-bold mb-6">My Repositories</h3>
+              <p className="text-lg max-w-xl mb-8">
+                Check out my GitHub repositories for more projects, contributions, and code samples.
+              </p>
+              <a
+                href="https://github.com/moementrabelsi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-3 bg-black text-white text-sm uppercase tracking-widest font-medium hover:bg-gray-800 transition-colors"
+              >
+                Visit GitHub Profile
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

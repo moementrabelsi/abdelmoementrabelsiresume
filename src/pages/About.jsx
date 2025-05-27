@@ -103,7 +103,7 @@ const About = () => {
               </div>
               
               <div className="bg-rn-gray p-3 rounded-lg min-w-[100px]">
-                <h3 className="text-lg font-semibold">{t('about.German')}</h3>
+                <h3 className="text-lg font-semibold">{t('about.german')}</h3>
                 <p className="text-gray-400 text-sm">Elementary</p>
               </div>
             </div>

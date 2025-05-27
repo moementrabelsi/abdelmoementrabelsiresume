@@ -39,6 +39,7 @@
     "native": "Native",
     "english": "English",
     "french": "French",
+    "german": "German",
     "problemSolving": "Problem Solving",
     "problemSolvingDesc": "Analytical thinking to tackle complex technical challenges",
     "teamwork": "Team Collaboration",
@@ -109,7 +110,18 @@
       "DevOps CI/CD Project \u2013 Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
       "HR Web App \u2013 Angular, Spring Boot, MySQL (2021)",
       "Multi-Platform Artist App \u2013 Symfony, JavaFX, CodeNameOne (2020)"
-    ]
+    ],
+    "githubContributions": "GitHub Contributions",
+    "loading": "Loading...",
+    "errorFetching": "Error fetching GitHub data",
+    "rateLimitInfo": "GitHub API rate limits may apply. Try again later.",
+    "repositories": "Repositories",
+    "followers": "Followers",
+    "following": "Following",
+    "contributionGraph": "Contribution Graph",
+    "less": "Less",
+    "more": "More",
+    "viewProfileOnGitHub": "View Profile on GitHub"
   },
   "contact": {
     "pageTitle": "Contact Information",

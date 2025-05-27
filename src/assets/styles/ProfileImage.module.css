@@ -3,10 +3,15 @@
   height: 100%;
   object-fit: cover;
   object-position: center 30%;
+  display: block;
 }
 
 .imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  background-color: #121212; /* Ensures no white space appears */
 }

@@ -2,7 +2,7 @@
   "name": "bilingual-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://moementrabelsi.github.io/abdelmoementrabelsiresume-main",
+  "homepage": "https://moementrabelsi.github.io/abdelmoementrabelsiresume",
   "dependencies": {
     "@sendgrid/mail": "^8.1.5",
     "autoprefixer": "^10.4.14",

@@ -255,8 +255,8 @@ const Contact = () => {
                 </div>
                 <div className="mt-8">
                   <a 
-                    href="../../src/assets/Resume-Trabelsi-Abdelmoemen.pdf" 
-                    download
+                    href="/abdelmoementrabelsiresume/assets/Resume-Trabelsi-Abdelmoemen.pdf" 
+                    download="Resume-Trabelsi-Abdelmoemen.pdf"
                     className="inline-block px-6 py-3 bg-rn-accent text-white text-sm uppercase tracking-widest font-medium hover:bg-rn-dark hover:border hover:border-rn-accent transition-colors rounded-sm"
                   >
                     {t('contact.contactInfo.downloadCV')}

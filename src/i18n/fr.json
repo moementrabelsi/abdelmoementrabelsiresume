@@ -39,6 +39,7 @@
     "native": "Langue maternelle",
     "english": "Anglais",
     "french": "Fran\u00e7ais",
+    "german": "Allemand",
     "problemSolving": "R\u00e9solution de Probl\u00e8mes",
     "problemSolvingDesc": "Pens\u00e9e analytique pour relever des d\u00e9fis techniques complexes",
     "teamwork": "Collaboration en \u00c9quipe",
@@ -104,12 +105,23 @@
     }
   },
   "projects": {
-    "title": "Projets Personnels",
+    "title": "Projets Clés",
     "list": [
-      "Projet DevOps CI/CD \u2013 Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
-      "Application Web RH \u2013 Angular, Spring Boot, MySQL (2021)",
-      "Application Multiplateforme Artistes \u2013 Symfony, JavaFX, CodeNameOne (2020)"
-    ]
+      "Projet CI/CD DevOps – Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
+      "Application Web RH – Angular, Spring Boot, MySQL (2021)",
+      "Application Multi-Plateforme pour Artistes – Symfony, JavaFX, CodeNameOne (2020)"
+    ],
+    "githubContributions": "Contributions GitHub",
+    "loading": "Chargement...",
+    "errorFetching": "Erreur lors de la récupération des données GitHub",
+    "rateLimitInfo": "Les limites de l'API GitHub peuvent s'appliquer. Réessayez plus tard.",
+    "repositories": "Dépôts",
+    "followers": "Abonnés",
+    "following": "Abonnements",
+    "contributionGraph": "Graphique de Contributions",
+    "less": "Moins",
+    "more": "Plus",
+    "viewProfileOnGitHub": "Voir le Profil sur GitHub"
   },
   "contact": {
     "pageTitle": "Informations de contact",

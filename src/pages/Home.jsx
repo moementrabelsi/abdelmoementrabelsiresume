@@ -8,7 +8,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col-reverse md:flex-row w-full min-h-screen relative overflow-hidden">
+    <div className="flex flex-col-reverse md:flex-row w-full min-h-screen relative overflow-hidden bg-rn-dark">
       {/* Main Content Area - right side */}
       <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
         {/* Profile Info */}
