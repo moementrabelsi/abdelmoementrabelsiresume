@@ -5,10 +5,7 @@ import CertificatePopup from '../components/CertificatePopup';
 import '../assets/styles/flipcard.css';
 
 // Import certificate images
-import awsCertificate from '../assets/certificates/aws-certificate.jpg';
-import scrumCertificate from '../assets/certificates/scrum-certificate.jpg';
-import googleCloudCertificate from '../assets/certificates/google-cloud-certificate.jpg';
-
+import NodeCertificate from '../assets/NodeCertificate.jpg';
 // Import tech stack logos
 import jsLogo from '../assets/logos/javascript.svg';
 import typescriptLogo from '../assets/logos/typescript.svg';
@@ -38,24 +35,10 @@ const About = () => {
   const certificates = [
     {
       id: 1,
-      year: '2023',
-      title: 'AWS Certified Solutions Architect',
-      description: 'Validated expertise in designing distributed systems on AWS.',
-      image: awsCertificate
-    },
-    {
-      id: 2,
       year: '2022',
-      title: 'Professional Scrum Master I',
-      description: 'Certified in Scrum framework implementation and agile project management.',
-      image: scrumCertificate
-    },
-    {
-      id: 3,
-      year: '2021',
-      title: 'Google Cloud Professional Developer',
-      description: 'Demonstrated ability to build scalable applications on Google Cloud Platform.',
-      image: googleCloudCertificate
+      title: 'Full stack web development with Node.js & React.js',
+      description: 'Certified in Full stack web development with Node.js & React.js.',
+      image: NodeCertificate
     }
   ];
   

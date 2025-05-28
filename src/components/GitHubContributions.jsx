@@ -96,11 +96,11 @@ const GitHubContributions = ({ username = 'moementrabelsi' }) => {
           )}
           
           {/* GitHub Contribution Calendar */}
-          <div className="mt-6 bg-rn-darker rounded-lg p-4 overflow-hidden h-52">
+          <div className="mt-6 bg-rn-darker rounded-lg p-4 overflow-hidden h-52 flex flex-col items-center">
             <h4 className="text-lg font-medium mb-4">{t('projects.contributionGraph')}</h4>
-            <div className="github-contribution-calendar">
+            <div className="github-contribution-calendar w-full flex flex-col items-center">
               {/* GitHub contribution calendar iframe (responsive) */}
-              <div className="relative pb-[30%] h-0 overflow-hidden rounded-md bg-rn-darker">
+              <div className="relative pb-[30%] h-0 overflow-hidden rounded-md bg-rn-darker w-full max-w-3xl mx-auto">
                 <iframe 
                   src={`https://ghchart.rshah.org/${username}`} 
                   style={{ 
@@ -113,7 +113,8 @@ const GitHubContributions = ({ username = 'moementrabelsi' }) => {
                     background: 'transparent',
                     filter: 'invert(1) hue-rotate(180deg) brightness(0.8) contrast(1.5)',
                     transform: 'scale(1.02)',
-                    padding: '0 10px'
+                    padding: '0 10px',
+                    margin: '0 auto'
                   }}
                   title={`${username}'s GitHub Contribution Chart`}
                   frameBorder="0"
@@ -121,14 +122,14 @@ const GitHubContributions = ({ username = 'moementrabelsi' }) => {
               </div>
               
               {/* Months display */}
-              <div className="flex justify-between text-xs text-gray-500 mt-1 px-1">
+              <div className="flex justify-between text-xs text-gray-500 mt-1 px-1 w-full max-w-3xl mx-auto">
                 {getMonths().map((month, index) => (
                   <span key={index}>{month}</span>
                 ))}
               </div>
               
               {/* Contribution legend */}
-              <div className="flex items-center justify-end space-x-2 mt-3">
+              <div className="flex items-center justify-end space-x-2 mt-3 w-full max-w-3xl mx-auto">
                 <span className="text-xs text-gray-400">{t('projects.less')}</span>
                 <div className="w-3 h-3 rounded-sm bg-gray-800"></div>
                 <div className="w-3 h-3 rounded-sm bg-rn-accent opacity-30"></div>

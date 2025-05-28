@@ -276,13 +276,13 @@ const Experience = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="/#/projects" 
+              href="#/projects" 
               className="inline-block px-8 py-3 bg-black text-white text-sm uppercase tracking-widest font-medium hover:bg-gray-800 transition-colors"
             >
               View Projects
             </a>
             <a 
-              href="/#/contact" 
+              href="#/contact" 
               className="inline-block px-8 py-3 border border-black text-sm uppercase tracking-widest font-medium hover:bg-black hover:text-white transition-colors"
             >
               Contact Me

@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { t } = useTranslation();
+  
+  // No need for manual initialization - we'll provide the public key in the send method
   
   // Form state
   const [formData, setFormData] = useState({
@@ -15,6 +18,9 @@ const Contact = () => {
   // Form submission state
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitResult, setSubmitResult] = useState({ status: null, message: '' });
+  
+  // Create a ref for the form
+  const form = useRef();
   
   // Handle form input changes
   const handleChange = (e) => {
@@ -52,99 +58,64 @@ const Contact = () => {
     // Set submitting state to show loading indicator
     setIsSubmitting(true);
     setSubmitResult({ status: null, message: '' });
-
-    // DEVELOPMENT MODE FALLBACK
-    // In development, use mailto: as a fallback since serverless functions won't work locally
-    if (isDev()) {
-      try {
-        // Simulate network delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        // Create email content
-        const subject = encodeURIComponent(formData.subject || 'Contact from Portfolio Website');
-        const body = encodeURIComponent(
-          `Name: ${formData.name}\n\n` +
-          `Email: ${formData.email}\n\n` +
-          `Message:\n${formData.message}`
-        );
-        
-        // Open default email client
-        window.location.href = `mailto:fakhfakh.ahmeed@gmail.com?subject=${subject}&body=${body}`;
-        
-        // Show success message
-        setSubmitResult({ 
-          status: 'success', 
-          message: 'Development mode: Email client opened. In production, this would be sent via SendGrid.' 
-        });
-        
-        // Reset form
-        setFormData({
-          name: '',
-          email: '',
-          subject: '',
-          message: ''
-        });
-      } catch (error) {
-        console.error('Error in dev mode:', error);
-        setSubmitResult({ 
-          status: 'error', 
-          message: 'Failed to open email client. Please try again.' 
-        });
-      } finally {
-        setIsSubmitting(false);
-      }
-      return;
-    }
     
-    // PRODUCTION MODE - Use Netlify function with SendGrid
-    try {      
-      // Send data to our serverless function
-      const response = await fetch('/.netlify/functions/sendEmail', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+    // PRODUCTION MODE - Use EmailJS
+    try {
+      // Using your EmailJS service and template IDs
+      const serviceId = 'service_idydi9x';
+      const templateId = 'template_bc92uhm';
+      
+      // Prepare template parameters - exactly matching your EmailJS template
+      const templateParams = {
+        from_name: formData.name,
+        email: formData.email,       // Matching your template parameter
+        title: formData.subject || 'Contact from Portfolio Website', // Using 'title' instead of 'subject'
+        message: formData.message,
+        to_name: 'Moemen',
+        to_email: 'fakhfakh.ahmeed@gmail.com'
+      };
+      
+      console.log('Sending email with params:', templateParams);
+      
+      // The public key should be included in the send method
+      const publicKey = 'Q_3c6fFIsyyQ7LGXh';
+      
+      // Send email using EmailJS with public key included
+      const response = await emailjs.send(serviceId, templateId, templateParams, publicKey)
+        .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
+          return response;
+        }, function(error) {
+          console.error('EmailJS FAILED...', error);
+          throw error;
+        });
+      
+      // Success
+      setSubmitResult({ 
+        status: 'success', 
+        message: t('contact.formMessages.success') 
       });
       
-      let data;
-      const responseText = await response.text();
-      
-      try {
-        // Try to parse JSON response
-        data = JSON.parse(responseText);
-      } catch (e) {
-        // If parsing fails, use text as message
-        data = { message: responseText || 'Unknown error occurred' };
-      }
-      
-      if (response.ok) {
-        // Success
-        setSubmitResult({ 
-          status: 'success', 
-          message: t('contact.formMessages.success') 
-        });
-        
-        // Reset form after successful submission
-        setFormData({
-          name: '',
-          email: '',
-          subject: '',
-          message: ''
-        });
-      } else {
-        // API returned an error
-        setSubmitResult({ 
-          status: 'error', 
-          message: data.message || t('contact.formMessages.error') 
-        });
-      }
+      // Reset form after successful submission
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
     } catch (error) {
       // Network or other error
       console.error('Error sending message:', error);
+      let errorMessage = t('contact.formMessages.networkError');
+      
+      // If there's a specific EmailJS error, display it
+      if (error && error.text) {
+        errorMessage = `${errorMessage} (${error.text})`;
+      }
+      
       setSubmitResult({ 
         status: 'error', 
-        message: t('contact.formMessages.networkError') 
+        message: errorMessage 
       });
     } finally {
       setIsSubmitting(false);
@@ -168,7 +139,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div>
               <h2 className="text-2xl font-bold mb-8">Send a Message</h2>
-              <form className="space-y-6" onSubmit={handleSubmit}>
+              <form ref={form} className="space-y-6" onSubmit={handleSubmit}>
                 {/* Form submission status message */}
                 {submitResult.status && (
                   <div className={`p-4 rounded ${submitResult.status === 'success' ? 'bg-green-800 text-green-100' : 'bg-red-800 text-red-100'}`}>

@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
       <div className="hidden md:flex w-24 bg-rn-darker flex-col fixed h-screen z-10">
         {/* Logo */}
         <div className="p-4 flex justify-center">
-          <Link to="/" className="block">
+          <Link to="" className="block">
             <img 
               src={profilePhoto} 
               alt="Abdelmoemen Trabelsi" 
@@ -89,7 +89,7 @@ const Layout = ({ children }) => {
       
       {/* Mobile Top Header */}
       <div className="md:hidden fixed top-0 left-0 right-0 bg-rn-darker text-white z-10 px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="block">
+        <Link to="" className="block">
           <img 
             src={profilePhoto} 
             alt="Abdelmoemen Trabelsi" 

@@ -23,6 +23,8 @@ import SignupBuda from '../assets/projects/SignupBuda.png'
 import jenkins from '../assets/projects/jenkins.png'
 import grafana1 from '../assets/projects/grafana1.png'
 import Gaming from '../assets/projects/gaming1.png'
+import GitHubProfile from '../components/GitHubProfile';
+import GitHubActivity from '../components/GitHubActivity';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -188,6 +190,9 @@ const Projects = () => {
         </p>
       </section>
 
+      {/* GitHub Profile */}
+      <GitHubProfile username="moementrabelsi" />
+
       {/* Projects Grid */}
       <section className="py-12">
         <div className="max-w-screen-xl mx-auto px-6">
@@ -254,21 +259,7 @@ const Projects = () => {
               <GitHubContributions username="moementrabelsi" />
             </div>
             
-            {/* GitHub Profile Info */}
-            <div className="bg-rn-gray rounded-lg p-8 flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-bold mb-6">My Repositories</h3>
-              <p className="text-lg max-w-xl mb-8">
-                Check out my GitHub repositories for more projects, contributions, and code samples.
-              </p>
-              <a
-                href="https://github.com/moementrabelsi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-3 bg-black text-white text-sm uppercase tracking-widest font-medium hover:bg-gray-800 transition-colors"
-              >
-                Visit GitHub Profile
-              </a>
-            </div>
+           
           </div>
         </div>
       </section>
