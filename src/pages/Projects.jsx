@@ -263,6 +263,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <GitHubActivity username="moementrabelsi" />
     </div>
   );
 };
