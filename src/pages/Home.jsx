@@ -15,9 +15,9 @@ const Home = () => {
         <div className="mb-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Trabelsi Abdelmoemen</h1>
           <p className="text-rn-accent mb-6">{t('hero.subtitle')}</p>
-          
+
           <div className="flex space-x-4 mb-8">
-           
+
             {/* <a href="https://www.facebook.com/ahmed.fakhfakh.547/" className="text-white hover:text-rn-accent transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
@@ -26,17 +26,23 @@ const Home = () => {
             */}
             <a href="https://www.linkedin.com/in/abdelmoementrabelsi-developpeur-web/" target="_blank" className="text-white hover:text-rn-accent transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
               </svg>
             </a>
             <a href="https://github.com/moementrabelsi" target="_blank" className="text-white hover:text-rn-accent transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
               </svg>
+            </a>
+            <a href="https://www.upwork.com/freelancers/~019132d3f12f0e7de4?mp_source=share" target="_blank" className="text-white hover:text-rn-accent transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z" />
+              </svg>
+
             </a>
           </div>
         </div>
-        
+
         {/* About Me */}
         <div className="mb-12">
           <h2 className="text-3xl uppercase mb-6">{t('about.title')}</h2>
@@ -47,7 +53,7 @@ const Home = () => {
         {/* My Services */}
         <div className="mb-12">
           <h2 className="text-3xl uppercase mb-10">{t('home.services')}</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex">
               <div className="mr-4 text-rn-accent">
@@ -60,7 +66,7 @@ const Home = () => {
                 <p className="text-gray-400 text-sm">{t('home.webDevDesc')}</p>
               </div>
             </div>
-            
+
             <div className="flex">
               <div className="mr-4 text-rn-accent">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -72,7 +78,7 @@ const Home = () => {
                 <p className="text-gray-400 text-sm">{t('home.seoDesc')}</p>
               </div>
             </div>
-            
+
             <div className="flex">
               <div className="mr-4 text-rn-accent">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -84,7 +90,7 @@ const Home = () => {
                 <p className="text-gray-400 text-sm">{t('home.microservicesDesc')}</p>
               </div>
             </div>
-            
+
             <div className="flex">
               <div className="mr-4 text-rn-accent">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -98,7 +104,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Contact Button */}
         {/* <div className="mt-10">
           <Link 
@@ -109,24 +115,24 @@ const Home = () => {
           </Link>
         </div> */}
       </div>
-      
+
       {/* Image Area - left side */}
       <div className="w-full md:w-1/2 relative overflow-hidden">
         {/* Black Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-rn-dark to-transparent z-10"></div>
-        
+
         {/* Profile Image */}
         <div className={styles.imageContainer}>
-          <img 
-            src={profilePhoto} 
-            alt={t('home.profileAlt')} 
+          <img
+            src={profilePhoto}
+            alt={t('home.profileAlt')}
             className={styles.profileImage}
           />
         </div>
-        
+
         {/* Name Overlay */}
         <div className="absolute bottom-20 left-10 z-20">
-          <h1 className="text-5xl md:text-7xl font-bold text-white">Abdelmoemen <br/> Trabelsi</h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-white">Abdelmoemen <br /> Trabelsi</h1>
         </div>
       </div>
     </div>
