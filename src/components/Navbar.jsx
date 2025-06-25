@@ -100,7 +100,7 @@ const Navbar = () => {
               <button
                 onClick={() => changeLanguage("en")}
                 className={`p-1.5 rounded-lg transition-all duration-300 shadow-md ${i18n.language === "en" ? "bg-rn-accent/20 ring-2 ring-rn-accent shadow-lg" : "hover:bg-gray-800 hover:shadow-lg"}`}
-                title="English"
+                title={t("language.english")}
               >
                 <svg className="w-6 h-4" viewBox="0 0 60 30" fill="none">
                   <defs>
@@ -126,7 +126,7 @@ const Navbar = () => {
               <button
                 onClick={() => changeLanguage("fr")}
                 className={`p-1.5 rounded-lg transition-all duration-300 shadow-md ${i18n.language === "fr" ? "bg-rn-accent/20 ring-2 ring-rn-accent shadow-lg" : "hover:bg-gray-800 hover:shadow-lg"}`}
-                title="Français"
+                title={t("language.french")}
               >
                 <svg className="w-6 h-4" viewBox="0 0 60 30" fill="none">
                   <defs>
@@ -235,7 +235,7 @@ const Navbar = () => {
                     <path d="M60 0L0 30" stroke="#C8102E" strokeWidth="4" />
                   </g>
                 </svg>
-                English
+                {t("language.english")}
               </button>
               <button
                 onClick={() => changeLanguage("fr")}
@@ -253,7 +253,7 @@ const Navbar = () => {
                     <rect x="40" width="20" height="30" fill="#ED2939" />
                   </g>
                 </svg>
-                Français
+                {t("language.french")}
               </button>
             </div>
           )}

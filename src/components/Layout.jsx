@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
   const navItems = [
     {
       path: "/",
-      label: "HOME",
+      label: t("navbar.home").toUpperCase(),
       icon: (
         <path
           strokeLinecap="round"
@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
     },
     {
       path: "/about",
-      label: "ABOUT",
+      label: t("navbar.about").toUpperCase(),
       icon: (
         <path
           strokeLinecap="round"
@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
     },
     {
       path: "/experience",
-      label: "EXPERIENCE",
+      label: t("navbar.experience").toUpperCase(),
       icon: (
         <path
           strokeLinecap="round"
@@ -74,7 +74,7 @@ const Layout = ({ children }) => {
     },
     {
       path: "/projects",
-      label: "PROJECTS",
+      label: t("navbar.projects").toUpperCase(),
       icon: (
         <path
           strokeLinecap="round"
@@ -86,7 +86,7 @@ const Layout = ({ children }) => {
     },
     {
       path: "/contact",
-      label: "CONTACT",
+      label: t("navbar.contact").toUpperCase(),
       icon: (
         <path
           strokeLinecap="round"
@@ -142,7 +142,7 @@ const Layout = ({ children }) => {
           <button
             onClick={() => changeLanguage("en")}
             className={`p-1.5 rounded-lg transition-all duration-200 shadow-md ${i18n.language === "en" ? "bg-rn-accent/20 ring-2 ring-rn-accent shadow-lg" : "hover:bg-gray-800 hover:shadow-lg"}`}
-            title="English"
+            title={t("language.english")}
           >
             <svg className="w-7 h-5" viewBox="0 0 60 30" fill="none">
               <defs>
@@ -168,7 +168,7 @@ const Layout = ({ children }) => {
           <button
             onClick={() => changeLanguage("fr")}
             className={`p-1.5 rounded-lg transition-all duration-200 shadow-md ${i18n.language === "fr" ? "bg-rn-accent/20 ring-2 ring-rn-accent shadow-lg" : "hover:bg-gray-800 hover:shadow-lg"}`}
-            title="Français"
+            title={t("language.french")}
           >
             <svg className="w-7 h-5" viewBox="0 0 60 30" fill="none">
               <defs>
