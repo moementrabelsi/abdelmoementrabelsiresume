@@ -27,6 +27,9 @@ module.exports = {
         'display-lg': ['3.5rem', { lineHeight: '1.1' }],
         'display': ['2.5rem', { lineHeight: '1.2' }]
       },
+      boxShadow: {
+        'glow': '0 0 8px rgba(232, 58, 58, 0.6)',
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',

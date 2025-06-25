@@ -6,23 +6,36 @@
     "projects": "Projets",
     "contact": "Contact"
   },
+  "language": {
+    "english": "Anglais",
+    "french": "Fran\u00e7ais",
+    "en": "EN",
+    "fr": "FR",
+    "profileAlt": "Abdelmoemen Trabelsi - Photo de Profil"
+  },
   "hero": {
     "greeting": "Bonjour, je suis Abdelmoemen Trabelsi",
     "subtitle": "Architecte logiciel junior"
   },
   "home": {
     "personal": "25 ans / Tunisie",
-    "aboutText": "Architecte logiciel junior, spécialisé dans la conception de solutions logicielles évolutives et performantes. Solide maîtrise des principes d’architecture logicielle, des frameworks de développement modernes et de la transformation des besoins métiers en solutions techniques robustes et adaptées.",
+    "aboutText": "Architecte logiciel junior, spécialisé dans la conception de solutions logicielles évolutives et performantes. Solide maîtrise des principes d'architecture logicielle, des frameworks de développement modernes et de la transformation des besoins métiers en solutions techniques robustes et adaptées.",
+    "readMore": "En savoir plus sur moi",
+    "experience": "2+ ans d'expérience",
+    "fullstackDeveloper": "DÉVELOPPEUR FULLSTACK",
     "services": "Mes Services",
+    "servicesIntro": "Voici les principaux services que j'offre en tant qu'ingénieur logiciel, en me concentrant sur la livraison de solutions de haute qualité qui répondent à vos besoins commerciaux.",
     "webDev": "D\u00e9veloppement Web",
     "webDevDesc": "Cr\u00e9ation de solutions sur mesure bas\u00e9es sur vos sp\u00e9cifications techniques.",
     "seo": "Optimisation SEO & Performance",
     "seoDesc": "Je m'assure que votre application se charge plus vite que vous ne pouvez dire \"Time to First Byte\".",
     "microservices": "Microservices & APIs",
     "microservicesDesc": "Conception de syst\u00e8mes backend \u00e9volutifs avec Spring Boot et Node.js qui ne planteront pas... trop souvent.",
-    "security": "S\u00e9curit\u00e9 des Donn\u00e9es & Applications",
-    "securityDesc": "Protection de votre application comme s'il s'agissait de mon mot de passe Netflix (autrement dit : tr\u00e8s s\u00e9rieusement).",
-    "profileAlt": "Ahmed Fakhfakh - D\u00e9veloppeur"
+    "security": "Int\u00e9gration IA",
+    "securityDesc": "Am\u00e9lioration des fonctionnalit\u00e9s avec des solutions intelligentes, automatis\u00e9es et bas\u00e9es sur les donn\u00e9es.",
+    "ctaTitle": "Travaillons Ensemble",
+    "ctaText": "Vous avez un projet en t\u00eate ? Contactez-moi et discutons de la fa\u00e7on dont je peux vous aider \u00e0 donner vie \u00e0 vos id\u00e9es avec un code propre, efficace et des solutions modernes.",
+    "profileAlt": "Abdelmoemen Trabelsi - Ing\u00e9nieur Logiciel"
   },
   "about": {
     "title": "\u00c0 propos de moi",
@@ -66,7 +79,19 @@
     "camping": "Camping",
     "campingDesc": "J'aime faire du camping et explorer la nature.",
     "sport": "Sport",
-    "sportDesc": "J'aime aller \u00e0 la salle de sport et rester en forme."
+    "sportDesc": "J'aime aller \u00e0 la salle de sport et rester en forme.",
+    "skillsOverview": "Aperçu des Compétences",
+    "skillsOverviewDesc": "Développeur full-stack avec une expertise en technologies frontend et backend. Expérimenté dans le développement d'applications web responsives, d'APIs RESTful et de gestion de bases de données.",
+    "advanced": "Avancé",
+    "elementary": "Élémentaire",
+    "softSkills": "Compétences Humaines",
+    "techStackDesc": "Je travaille avec une variété de technologies à travers toute la pile de développement logiciel, élargissant continuellement mon expertise pour livrer des solutions modernes et efficaces.",
+    "certificationsDesc": "L'apprentissage continu est essentiel dans le domaine technologique. Ces certifications démontrent mon engagement à rester à jour avec les meilleures pratiques de l'industrie.",
+    "certificateTitle": "Développement web full stack avec Node.js et React.js",
+    "certificateDescription": "Certifié en développement web full stack avec Node.js et React.js.",
+    "letsConnect": "Connectons-nous",
+    "letsConnectDesc": "Intéressé par une collaboration ? N'hésitez pas à me contacter pour discuter de la façon dont nous pouvons collaborer sur votre prochain projet.",
+    "contactMeButton": "Contactez-moi"
   },
   "skills": {
     "title": "Comp\u00e9tences Techniques",
@@ -79,6 +104,14 @@
   },
   "experience": {
     "title": "Exp\u00e9riences Professionnelles",
+    "pageTitle": "Exp\u00e9riences Professionnelles",
+    "pageDescription": "Tout au long de ma carri\u00e8re, j'ai eu l'opportunit\u00e9 de travailler sur divers projets qui ont am\u00e9lior\u00e9 mes comp\u00e9tences techniques et mes capacit\u00e9s de r\u00e9solution de probl\u00e8mes. Voici un aper\u00e7u de mon parcours professionnel.",
+    "cta": {
+      "title": "Int\u00e9ress\u00e9 par ce que vous voyez ?",
+      "description": "Consultez mes projets ou contactez-moi pour discuter de la fa\u00e7on dont nous pouvons travailler ensemble.",
+      "viewProjects": "Voir les Projets",
+      "contactMe": "Me Contacter"
+    },
     "tactic": {
       "role": "D\u00e9veloppeur Full-Stack \u2013 Stage de fin d\u2019\u00e9tudes",
       "company": "TAC-TIC (02/2023 \u2013 08/2023)",
@@ -100,17 +133,193 @@
       "role": "D\u00e9veloppeur Web \u2013 Stage Technicien",
       "company": "Sisagri (06/2021 \u2013 08/2021)",
       "details": [
-        "R\u00e9alisation d\u2019un site e-commerce pour la vente/location de mat\u00e9riel agricole."
+        "Cr\u00e9ation d'un site e-commerce pour la vente et la location d'\u00e9quipements agricoles."
       ]
+    },
+    "experienceData": {
+      "inoui": {
+        "period": "08/2024 - Pr\u00e9sent",
+        "location": "France",
+        "role": "D\u00e9veloppeur Full-Stack",
+        "company": "Agence Inoui",
+        "status": "Actuel",
+        "details": [
+          "D\u00e9veloppement et maintenance d'applications web \u00e9volutives utilisant la stack MERN.",
+          "Conception et impl\u00e9mentation d'API RESTful et de microservices pour une fonctionnalit\u00e9 efficace.",
+          "Optimisation des composants front-end pour les performances et l'exp\u00e9rience utilisateur.",
+          "Optimisation des API REST, r\u00e9duisant le temps de r\u00e9ponse de 30%.",
+          "Gestion de la conception de la base de donn\u00e9es, de la logique côté serveur et de l'authentification s\u00e9curis\u00e9e des utilisateurs."
+        ],
+        "technologies": ["React.js", "Node.js", "Jenkins", "Docker", "API REST", "Scrum"]
+      },
+      "tactic": {
+        "period": "02/2023 - 08/2023",
+        "location": "Tunisie",
+        "role": "D\u00e9veloppeur Full-Stack",
+        "company": "TAC-TIC",
+        "status": "Termin\u00e9",
+        "details": [
+          "Direction du d\u00e9veloppement d'une application mobile (Flutter) et web (React.js) pour un service de location de voitures.",
+          "Impl\u00e9mentation d'une architecture microservices avec Spring Boot pour le backend.",
+          "Cr\u00e9ation d'un pipeline CI/CD automatis\u00e9 utilisant Jenkins, Docker et AWS.",
+          "Application de pratiques de qualit\u00e9 de code avec int\u00e9gration SonarQube et tests unitaires complets.",
+          "Conception d'une interface utilisateur r\u00e9active et conviviale, optimis\u00e9e pour les plateformes mobiles et web."
+        ],
+        "technologies": ["React.js", "Flutter", "Spring Boot", "MongoDB", "Jenkins", "Docker"]
+      },
+      "beecoders": {
+        "period": "06/2022 - 08/2022",
+        "location": "Tunisie",
+        "role": "D\u00e9veloppeur Full-Stack",
+        "company": "Beecoders",
+        "status": "Termin\u00e9",
+        "details": [
+          "Construction d'une plateforme e-commerce de jeux vid\u00e9o avec React.js, Node.js et MongoDB.",
+          "Impl\u00e9mentation d'un syst\u00e8me s\u00e9curis\u00e9 d'authentification et d'autorisation des utilisateurs.",
+          "Conception et d\u00e9veloppement d'une interface utilisateur r\u00e9active avec React et Material-UI.",
+          "Cr\u00e9ation d'API RESTful pour la gestion des produits, des comptes utilisateurs et du traitement des commandes.",
+          "Int\u00e9gration du traitement des paiements Stripe pour des transactions s\u00e9curis\u00e9es."
+        ],
+        "technologies": ["React.js", "Node.js", "Express", "MongoDB", "Material-UI", "API Stripe"]
+      },
+      "sisagri": {
+        "period": "06/2021 - 08/2021",
+        "location": "Tunisie",
+        "role": "D\u00e9veloppeur Web",
+        "company": "Sisagri",
+        "status": "Termin\u00e9",
+        "details": [
+          "D\u00e9veloppement d'une plateforme e-commerce responsive pour la vente et la location d'\u00e9quipements agricoles.",
+          "Impl\u00e9mentation d'un catalogue de produits avec des fonctionnalit\u00e9s de filtrage et de recherche.",
+          "Cr\u00e9ation de comptes utilisateurs avec historique des commandes et gestion des locations d'\u00e9quipements.",
+          "Int\u00e9gration d'un tableau de bord administratif pour la gestion des stocks et le traitement des commandes.",
+          "D\u00e9ploiement de l'application sur un serveur Linux avec une base de donn\u00e9es MySQL."
+        ],
+        "technologies": ["PHP", "MySQL", "JavaScript", "Bootstrap", "jQuery", "AJAX"]
+      }
     }
   },
   "projects": {
-    "title": "Projets Clés",
+    "title": "Projets Cl\u00e9s",
+    "pageTitle": "Mes Projets",
+    "pageDescription": "Voici une s\u00e9lection de projets sur lesquels j'ai travaill\u00e9. Chacun repr\u00e9sente un d\u00e9fi unique et met en valeur diff\u00e9rents aspects de mes comp\u00e9tences techniques et de r\u00e9solution de probl\u00e8mes.",
     "list": [
-      "Projet CI/CD DevOps – Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
+      "Projet DevOps CI/CD – Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
       "Application Web RH – Angular, Spring Boot, MySQL (2021)",
       "Application Multi-Plateforme pour Artistes – Symfony, JavaFX, CodeNameOne (2020)"
     ],
+    "projectData": {
+      "aideProjet": {
+        "titleKey": "projects.projectData.aideProjet.title",
+        "defaultTitle": "AideProjet - Plateforme de Formation en Ligne",
+        "descriptionKey": "projects.projectData.aideProjet.description",
+        "defaultDescription": "Développement d'une plateforme d'apprentissage en ligne complète permettant aux instructeurs de créer des cours et aux étudiants d'accéder au contenu éducatif via une interface intuitive.",
+        "detailedDescriptionKey": "projects.projectData.aideProjet.detailedDescription",
+        "defaultDetailedDescription": "AideProjet est une plateforme d'éducation en ligne complète conçue pour connecter instructeurs et étudiants dans un environnement d'apprentissage virtuel. La plateforme propose une interface conviviale permettant aux instructeurs de créer, gérer et monétiser leurs cours, tandis que les étudiants peuvent parcourir, acheter et accéder au contenu éducatif. Le système comprend des capacités de streaming vidéo, des devoirs interactifs, un suivi de progression et un système de notification complet.",
+        "featuresKey": "projects.projectData.aideProjet.features",
+        "defaultFeatures": [
+          "Authentification des utilisateurs avec contrôle d'accès basé sur les rôles",
+          "Système de création et de gestion de cours pour les instructeurs",
+          "Traitement des paiements intégré pour l'inscription aux cours",
+          "Streaming vidéo avec paramètres de qualité adaptatifs",
+          "Quiz et devoirs interactifs",
+          "Suivi de progression des étudiants et tableau de bord analytique",
+          "Notifications en temps réel pour les mises à jour de cours et les messages"
+        ],
+        "challengesKey": "projects.projectData.aideProjet.challenges",
+        "defaultChallenges": "La mise en œuvre d'une solution de streaming vidéo évolutive pouvant gérer des utilisateurs simultanés tout en maintenant la qualité était le plus grand défi. J'ai développé un service de streaming personnalisé avec prise en charge du débit adaptatif pour assurer une lecture fluide sur différents appareils et conditions de réseau.",
+        "year": "2023",
+        "title": "AideProjet - Plateforme de Formation en Ligne",
+        "description": "Développement d'une plateforme d'apprentissage en ligne complète permettant aux instructeurs de créer des cours et aux étudiants d'accéder au contenu éducatif via une interface intuitive.",
+        "detailedDescription": "AideProjet est une plateforme d'éducation en ligne complète conçue pour connecter instructeurs et étudiants dans un environnement d'apprentissage virtuel. La plateforme propose une interface conviviale permettant aux instructeurs de créer, gérer et monétiser leurs cours, tandis que les étudiants peuvent parcourir, acheter et accéder au contenu éducatif. Le système comprend des capacités de streaming vidéo, des devoirs interactifs, un suivi de progression et un système de notification complet.",
+        "features": [
+          "Authentification des utilisateurs avec contrôle d'accès basé sur les rôles",
+          "Système de création et de gestion de cours pour les instructeurs",
+          "Traitement des paiements intégré pour l'inscription aux cours",
+          "Streaming vidéo avec paramètres de qualité adaptatifs",
+          "Quiz et devoirs interactifs",
+          "Suivi de progression des étudiants et tableau de bord analytique",
+          "Notifications en temps réel pour les mises à jour de cours et les messages"
+        ],
+        "challenges": "La mise en œuvre d'une solution de streaming vidéo évolutive pouvant gérer des utilisateurs simultanés tout en maintenant la qualité était le plus grand défi. J'ai développé un service de streaming personnalisé avec prise en charge du débit adaptatif pour assurer une lecture fluide sur différents appareils et conditions de réseau."
+      },
+      "hologart": {
+        "title": "Site Web Hologart",
+        "description": "Développement d'un site web portfolio responsive pour une agence créative en utilisant React.js et Tailwind CSS, axé sur un design moderne et des animations fluides.",
+        "detailedDescription": "Hologart est une application web élégante et responsive conçue pour les freelances et les agences créatives afin de présenter leurs portfolios. Elle met l'accent sur une interface utilisateur épurée, des animations de défilement fluides et une approche mobile-first. Conçue pour être à la fois esthétiquement agréable et hautement fonctionnelle, le site comprend des sections pour les travaux mis en avant, les services et les informations de contact, ce qui en fait un format idéal pour présenter des travaux créatifs de manière professionnelle.",
+        "features": [
+          "Mise en page responsive pour l'affichage mobile et bureau",
+          "Transitions animées utilisant Framer Motion",
+          "Structure basée sur des composants avec éléments UI réutilisables",
+          "Optimisé pour les performances et les meilleures pratiques SEO",
+          "Formulaire de contact interactif et liens vers les réseaux sociaux",
+          "Support du mode sombre pour une expérience utilisateur améliorée"
+        ],
+        "challenges": "Équilibrer l'attrait visuel avec les performances était un défi majeur. Obtenir des animations fluides tout en maintenant la réactivité et des temps de chargement rapides a nécessité un réglage fin du CSS et des optimisations des composants React.",
+        "year": "2025"
+      },
+      "carRental": {
+        "title": "Application Web de Location de Voitures",
+        "description": "Développement d'une plateforme complète de location de voitures utilisant React.js, Node.js (Express) et MongoDB, avec une architecture microservices pour des opérations backend évolutives.",
+        "detailedDescription": "Cette application de location de voitures offre une expérience fluide aux utilisateurs pour parcourir, filtrer et réserver des véhicules de location. Le frontend est construit avec React et Tailwind CSS pour une interface utilisateur réactive et visuellement attrayante, tandis que le backend est structuré selon une architecture microservices pour assurer l'évolutivité et la maintenabilité. Les services principaux gèrent les utilisateurs, les listes de voitures, les réservations et le traitement des paiements. MongoDB sert de base de données principale pour stocker les données sur les véhicules, les utilisateurs et les réservations.",
+        "features": [
+          "Frontend réactif avec listes de voitures dynamiques et filtres de recherche",
+          "Backend microservices pour une architecture modulaire et évolutive",
+          "Authentification des utilisateurs et contrôle d'accès basé sur les rôles",
+          "Gestion des réservations de voitures avec vérifications de disponibilité en temps réel",
+          "APIs RESTful pour la communication frontend-backend",
+          "Gestion sécurisée et efficace des données MongoDB",
+          "Transitions UI fluides avec Framer Motion"
+        ],
+        "challenges": "Concevoir et coordonner plusieurs services backend tout en maintenant l'intégrité des données et une faible latence était un défi majeur. J'ai implémenté l'isolation des services et des passerelles API efficaces pour gérer les requêtes et assuré une modélisation cohérente des données entre les services.",
+        "year": "2025"
+      },
+      "facialRecognition": {
+        "title": "Système de Reconnaissance Faciale",
+        "description": "Développement d'un système de reconnaissance faciale utilisant TensorFlow et OpenCV pour l'authentification sécurisée des utilisateurs dans les applications web.",
+        "detailedDescription": "Ce système avancé de reconnaissance faciale utilise des algorithmes d'apprentissage profond pour identifier et vérifier les individus en temps réel. La solution combine TensorFlow pour le réseau neuronal de base avec OpenCV pour le traitement d'images, résultant en un système hautement précis et réactif adapté à l'authentification sécurisée dans les applications web.",
+        "features": [
+          "Détection et reconnaissance faciale en temps réel",
+          "Haute précision utilisant des réseaux neuronaux convolutifs",
+          "Système d'authentification utilisateur sécurisé",
+          "Intégration avec les applications web existantes",
+          "Conception axée sur la confidentialité avec protection des données",
+          "Optimisation des performances pour diverses configurations matérielles"
+        ],
+        "challenges": "Équilibrer la précision de la reconnaissance avec les performances était le principal défi. J'ai implémenté des techniques d'optimisation de modèles et des algorithmes de traitement efficaces pour atteindre une haute précision tout en maintenant des vitesses de traitement raisonnables, même sur du matériel modeste.",
+        "year": "2024"
+      },
+      "gamingEcommerce": {
+        "title": "Plateforme E-Commerce de Jeux Vidéo",
+        "description": "Création d'une plateforme e-commerce complète pour les produits de jeux vidéo utilisant React.js, Node.js et MongoDB avec un traitement sécurisé des transactions.",
+        "detailedDescription": "Cette plateforme e-commerce de jeux vidéo offre aux joueurs une expérience d'achat fluide pour l'acquisition de jeux, de matériel et d'accessoires. La plateforme propose une interface utilisateur attrayante, un filtrage efficace des produits, un traitement sécurisé des paiements et une gestion complète des commandes, répondant aux besoins des joueurs occasionnels comme des plus sérieux.",
+        "features": [
+          "Navigation intuitive des produits et fonctionnalité de recherche",
+          "Options avancées de filtrage et de tri",
+          "Panier d'achat sécurisé et processus de paiement",
+          "Gestion de compte utilisateur avec historique d'achats",
+          "Système d'avis et d'évaluation des produits",
+          "Design responsive pour les utilisateurs mobiles et desktop"
+        ],
+        "challenges": "Implémenter un système de transaction sécurisé et efficace tout en gérant une grande base de données de produits était un défi. J'ai conçu une structure de base de données optimisée et implémenté une intégration sécurisée du traitement des paiements tout en garantissant des temps de chargement rapides pour les listes de produits.",
+        "year": "2022"
+      },
+      "devops": {
+        "title": "Projet DevOps CI/CD",
+        "description": "Implémentation de pipelines CI/CD avec Jenkins, Docker, SonarQube, Prometheus et Grafana pour les tests automatisés, le déploiement et la surveillance.",
+        "detailedDescription": "Ce projet s'est concentré sur la mise en œuvre de pratiques DevOps robustes pour une application basée sur des microservices. Le pipeline CI/CD automatise l'ensemble du processus de livraison logicielle, de la validation du code au déploiement en production, avec des contrôles de qualité à chaque étape assurant un déploiement logiciel efficace et fiable.",
+        "features": [
+          "Architecture de microservices conteneurisés utilisant Docker",
+          "Pipelines Jenkins pour l'intégration et le déploiement continus",
+          "Vérifications automatisées de la qualité du code avec SonarQube",
+          "Surveillance complète avec des tableaux de bord Prometheus et Grafana",
+          "Pratiques d'Infrastructure as Code",
+          "Analyse de sécurité automatisée et évaluation des vulnérabilités"
+        ],
+        "challenges": "Le principal défi était d'intégrer divers outils dans un pipeline cohérent tout en garantissant la sécurité et la conformité. J'ai implémenté des définitions de pipeline standardisées à travers plusieurs services et développé des mécanismes de rollback automatisés pour les déploiements échoués.",
+        "year": "2023"
+      }
+    },
     "githubContributions": "Contributions GitHub",
     "loading": "Chargement...",
     "errorFetching": "Erreur lors de la récupération des données GitHub",
@@ -121,10 +330,26 @@
     "contributionGraph": "Graphique de Contributions",
     "less": "Moins",
     "more": "Plus",
-    "viewProfileOnGitHub": "Voir le Profil sur GitHub"
+    "viewProfileOnGitHub": "Voir le Profil sur GitHub",
+    "avatarAlt": "Avatar de {{username}}",
+    "noMediaAvailable": "Aucun média disponible",
+    "viewProject": "Voir le Projet",
+    "technologiesUsed": "Technologies Utilisées",
+    "projectChallenges": "Défis",
+    "projectFeatures": "Fonctionnalités Principales",
+    "closeButton": "Fermer",
+    "viewProject": "Voir le Projet",
+    "viewDetails": "Voir les Détails",
+    "exploreMoreOnGitHub": "Explorer Plus sur GitHub"
   },
   "contact": {
     "pageTitle": "Informations de contact",
+    "headerTitle": "Contactez-moi",
+    "headerDescription": "Intéressé par une collaboration ? N'hésitez pas à me contacter en utilisant le formulaire ci-dessous ou via mes réseaux sociaux.",
+    "formSectionTitle": "Envoyer un message",
+    "availabilityTitle": "Disponibilité",
+    "availabilityDescription": "Je suis actuellement disponible pour du travail en freelance et ouvert à discuter de nouvelles opportunités. Collaborons sur votre prochain projet !",
+    "hireMeButton": "Recrutez-moi",
     "contactInfo": {
       "emailLabel": "Email",
       "phoneLabel": "Téléphone",
