@@ -6,6 +6,13 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "language": {
+    "english": "English",
+    "french": "Français",
+    "en": "EN",
+    "fr": "FR",
+    "profileAlt": "Abdelmoemen Trabelsi - Profile Picture"
+  },
   "hero": {
     "greeting": "Hi, I'm Abdelmoemen Trabelsi",
     "subtitle": "Junior Software Architect"
@@ -13,7 +20,11 @@
   "home": {
     "personal": "25 years / Tunisia",
     "aboutText": "Junior Software Architect with a strong passion for designing scalable, efficient, and user-focused software solutions. Skilled in system design, development frameworks, and translating business needs into technical architecture.",
+    "readMore": "Learn more about me",
+    "experience": "2+ years experience",
+    "fullstackDeveloper": "FULLSTACK DEVELOPER",
     "services": "My Services",
+    "servicesIntro": "Here are the main services I offer as a software engineer, focusing on delivering high-quality solutions that meet your business needs.",
     "webDev": "Web Development",
     "webDevDesc": "Building a custom tailored solution based on your technical specification.",
     "seo": "SEO & Performance Optimization",
@@ -22,7 +33,9 @@
     "microservicesDesc": "Designing scalable backend systems with Spring Boot and Node.js that won't crash… much.",
     "security": "AI Integration",
     "securityDesc": "Enhancing functionality with smart, automated, and data-driven solutions.",
-    "profileAlt": "Ahmed Fakhfakh - Developer"
+    "ctaTitle": "Let's Work Together",
+    "ctaText": "Have a project in mind? Get in touch and let's discuss how I can help bring your ideas to life with clean, efficient code and modern solutions.",
+    "profileAlt": "Abdelmoemen Trabelsi - Software Engineer"
   },
   "about": {
     "title": "About Me",
@@ -31,7 +44,7 @@
     "experience": "My experience spans building responsive web applications with React.js, designing scalable backend architectures using Spring Boot, and implementing DevOps pipelines with Jenkins and Docker. I have also worked with Flutter in cross-platform contexts. I'm especially passionate about optimizing REST APIs, improving system performance, and delivering clean, efficient code across the stack.",
     "educationTitle": "Education & Training",
     "degree1": "National Engineering Degree in Software Engineering",
-    "school1": "ESPRIT - Private Higher School of Engineering and Technology, Tunis, 2018-2023",
+    "school1": "ESPRIT - Private Higher School of Engineering and Technology, Tunis, 2018-2024",
     "degree2": "Computer Science Baccalaureate",
     "school2": "Lycée Rue ELAtriche, Ariana, 2018",
     "languagesTitle": "Languages",
@@ -66,7 +79,19 @@
     "camping": "Camping",
     "campingDesc": "I love to go camping and explore nature.",
     "sport": "Sport",
-    "sportDesc": "I love to go to the gym and stay fit."
+    "sportDesc": "I love to go to the gym and stay fit.",
+    "skillsOverview": "Skills Overview",
+    "skillsOverviewDesc": "Full-stack developer with expertise in both frontend and backend technologies. Experienced in developing responsive web applications, RESTful APIs, and database management.",
+    "advanced": "Advanced",
+    "elementary": "Elementary",
+    "softSkills": "Soft Skills",
+    "techStackDesc": "I work with a variety of technologies across the full software development stack, continuously expanding my expertise to deliver modern, efficient solutions.",
+    "certificationsDesc": "Continuous learning is essential in the tech field. These certifications demonstrate my commitment to staying current with industry best practices.",
+    "certificateTitle": "Full stack web development with Node.js & React.js",
+    "certificateDescription": "Certified in Full stack web development with Node.js & React.js.",
+    "letsConnect": "Let's Connect",
+    "letsConnectDesc": "Interested in working together? Feel free to reach out to discuss how we can collaborate on your next project.",
+    "contactMeButton": "Contact Me"
   },
   "skills": {
     "title": "Technical Skills",
@@ -79,9 +104,17 @@
   },
   "experience": {
     "title": "Professional Experience",
+    "pageTitle": "Professional Experience",
+    "pageDescription": "Throughout my career, I've had the opportunity to work on diverse projects that have enhanced my technical skills and problem-solving abilities. Here's a glimpse of my professional journey.",
+    "cta": {
+      "title": "Interested in what you see?",
+      "description": "Check out my projects or get in touch to discuss how we can work together.",
+      "viewProjects": "View Projects",
+      "contactMe": "Contact Me"
+    },
     "tactic": {
-      "role": "Full-Stack Developer \u2013 Final Year Internship",
-      "company": "TAC-TIC (02/2023 \u2013 08/2023)",
+      "role": "Full-Stack Developer – Final Year Internship",
+      "company": "TAC-TIC (02/2023 – 08/2023)",
       "details": [
         "Built a mobile app using Flutter and a web app with React.js.",
         "Designed and implemented a scalable microservices architecture with Spring Boot.",
@@ -90,27 +123,203 @@
       ]
     },
     "beecoders": {
-      "role": "Full-Stack Developer \u2013 Engineering Internship",
-      "company": "Beecoders (06/2022 \u2013 08/2022)",
+      "role": "Full-Stack Developer – Engineering Internship",
+      "company": "Beecoders (06/2022 – 08/2022)",
       "details": [
         "Developed a gaming e-commerce platform using React.js, Node.js, and MongoDB."
       ]
     },
     "sisagri": {
-      "role": "Web Developer \u2013 Technician Internship",
-      "company": "Sisagri (06/2021 \u2013 08/2021)",
+      "role": "Web Developer – Technician Internship",
+      "company": "Sisagri (06/2021 – 08/2021)",
       "details": [
         "Created an e-commerce website for agricultural equipment sales and rentals."
       ]
+    },
+    "experienceData": {
+      "inoui": {
+        "period": "08/2024 - Present",
+        "location": "France",
+        "role": "Full-Stack Developer",
+        "company": "Inoui Agency",
+        "status": "Current",
+        "details": [
+          "Develop and maintain scalable web applications using the MERN stack.",
+          "Design and implement RESTful APIs and microservices for efficient functionality.",
+          "Optimize front-end components for performance and user experience.",
+          "Optimized REST APIs, reducing response time by 30%.",
+          "Manage database design, server-side logic, and secure user authentication."
+        ],
+        "technologies": ["React.js", "Node.js", "Jenkins", "Docker", "REST APIs", "Scrum"]
+      },
+      "tactic": {
+        "period": "02/2023 - 08/2023",
+        "location": "Tunisia",
+        "role": "Full-Stack Developer",
+        "company": "TAC-TIC",
+        "status": "Completed",
+        "details": [
+          "Led development of a mobile app (Flutter) and web app (React.js) for a car rental service.",
+          "Implemented a microservices architecture with Spring Boot for the backend.",
+          "Created an automated CI/CD pipeline using Jenkins, Docker, and AWS.",
+          "Applied code quality practices with SonarQube integration and comprehensive unit testing.",
+          "Designed a responsive and user-friendly UI/UX optimized for both mobile and web platforms."
+        ],
+        "technologies": ["React.js", "Flutter", "Spring Boot", "MongoDB", "Jenkins", "Docker"]
+      },
+      "beecoders": {
+        "period": "06/2022 - 08/2022",
+        "location": "Tunisia",
+        "role": "Full-Stack Developer",
+        "company": "Beecoders",
+        "status": "Completed",
+        "details": [
+          "Built a gaming e-commerce platform with React.js, Node.js, and MongoDB.",
+          "Implemented secure user authentication and authorization system.",
+          "Designed and developed a responsive user interface with React and Material-UI.",
+          "Created RESTful APIs for product management, user accounts, and order processing.",
+          "Integrated Stripe payment processing for secure transactions."
+        ],
+        "technologies": ["React.js", "Node.js", "Express", "MongoDB", "Material-UI", "Stripe API"]
+      },
+      "sisagri": {
+        "period": "06/2021 - 08/2021",
+        "location": "Tunisia",
+        "role": "Web Developer",
+        "company": "Sisagri",
+        "status": "Completed",
+        "details": [
+          "Developed a responsive e-commerce platform for agricultural equipment sales and rentals.",
+          "Implemented a product catalog with filtering and search functionality.",
+          "Created user accounts with order history and equipment rental management.",
+          "Integrated an admin dashboard for inventory management and order processing.",
+          "Deployed the application on a Linux server with a MySQL database."
+        ],
+        "technologies": ["PHP", "MySQL", "JavaScript", "Bootstrap", "jQuery", "AJAX"]
+      }
     }
   },
   "projects": {
     "title": "Key Projects",
+    "pageTitle": "My Projects",
+    "pageDescription": "Below is a selection of projects I've worked on. Each one represents a unique challenge and showcases different aspects of my technical abilities and problem-solving skills.",
     "list": [
       "DevOps CI/CD Project \u2013 Jenkins, Docker, SonarQube, Prometheus, Grafana (2022)",
       "HR Web App \u2013 Angular, Spring Boot, MySQL (2021)",
       "Multi-Platform Artist App \u2013 Symfony, JavaFX, CodeNameOne (2020)"
     ],
+    "projectData": {
+      "aideProjet": {
+        "titleKey": "projects.projectData.aideProjet.title",
+        "defaultTitle": "AideProjet - Online Formation Platform",
+        "descriptionKey": "projects.projectData.aideProjet.description",
+        "defaultDescription": "Developed a comprehensive e-learning platform enabling instructors to create courses and students to access educational content through an intuitive interface.",
+        "detailedDescriptionKey": "projects.projectData.aideProjet.detailedDescription",
+        "defaultDetailedDescription": "AideProjet is a full-featured online education platform designed to connect instructors and students in a virtual learning environment. The platform features a user-friendly interface for instructors to create, manage, and monetize their courses, while students can browse, purchase, and access educational content. The system includes video streaming capabilities, interactive assignments, progress tracking, and a comprehensive notification system.",
+        "featuresKey": "projects.projectData.aideProjet.features",
+        "defaultFeatures": [
+          "User authentication with role-based access control",
+          "Course creation and management system for instructors",
+          "Integrated payment processing for course enrollment",
+          "Video streaming with adaptive quality settings",
+          "Interactive quizzes and assignments",
+          "Student progress tracking and analytics dashboard",
+          "Real-time notifications for course updates and messages"
+        ],
+        "challengesKey": "projects.projectData.aideProjet.challenges",
+        "defaultChallenges": "Implementing a scalable video streaming solution that could handle concurrent users while maintaining quality was the biggest challenge. I developed a custom streaming service with adaptive bitrate support to ensure smooth playback across various devices and network conditions.",
+        "year": "2023",
+        "title": "AideProjet - Online Formation Platform",
+        "description": "Developed a comprehensive e-learning platform enabling instructors to create courses and students to access educational content through an intuitive interface.",
+        "detailedDescription": "AideProjet is a full-featured online education platform designed to connect instructors and students in a virtual learning environment. The platform features a user-friendly interface for instructors to create, manage, and monetize their courses, while students can browse, purchase, and access educational content. The system includes video streaming capabilities, interactive assignments, progress tracking, and a comprehensive notification system.",
+        "features": [
+          "User authentication with role-based access control",
+          "Course creation and management system for instructors",
+          "Integrated payment processing for course enrollment",
+          "Video streaming with adaptive quality settings",
+          "Interactive quizzes and assignments",
+          "Student progress tracking and analytics dashboard",
+          "Real-time notifications for course updates and messages"
+        ],
+        "challenges": "Implementing a scalable video streaming solution that could handle concurrent users while maintaining quality was the biggest challenge. I developed a custom streaming service with adaptive bitrate support to ensure smooth playback across various devices and network conditions."
+      },
+      "hologart": {
+        "title": "Hologart Website",
+        "description": "Developed a responsive portfolio and creative agency website using React.js and Tailwind CSS, focused on modern design and smooth animations.",
+        "detailedDescription": "Hologart is a sleek and responsive web application tailored for freelancers and creative agencies to showcase their portfolios. It emphasizes clean UI, smooth scroll animations, and a mobile-first approach. Designed to be both aesthetically pleasing and highly functional, the site includes sections for featured work, services, and contact information, making it ideal for presenting creative work in a professional format.",
+        "features": [
+          "Responsive layout for mobile and desktop viewing",
+          "Animated transitions using Framer Motion",
+          "Component-based structure with reusable UI elements",
+          "Optimized for performance and SEO best practices",
+          "Interactive contact form and social media links",
+          "Dark mode support for enhanced user experience"
+        ],
+        "challenges": "Balancing visual appeal with performance was a key challenge. Achieving fluid animations while maintaining responsiveness and fast load times required fine-tuning of CSS and React component optimizations.",
+        "year": "2025"
+      },
+      "carRental": {
+        "title": "Car Rental Web Application",
+        "description": "Developed a full-stack car rental platform using React.js, Node.js (Express), and MongoDB, with a microservices architecture for scalable backend operations.",
+        "detailedDescription": "This car rental application provides a seamless experience for users to browse, filter, and reserve rental vehicles. The frontend is built with React and Tailwind CSS for a responsive and visually appealing UI, while the backend is structured using a microservices architecture to ensure scalability and maintainability. Core services handle user management, car listings, bookings, and payment processing. MongoDB serves as the primary database for storing vehicle, user, and booking data.",
+        "features": [
+          "Responsive frontend with dynamic car listings and search filters",
+          "Microservices backend for modular and scalable architecture",
+          "User authentication and role-based access control",
+          "Car booking management with real-time availability checks",
+          "RESTful APIs for frontend-backend communication",
+          "Secure and efficient MongoDB data handling",
+          "Smooth UI transitions with Framer Motion"
+        ],
+        "challenges": "Designing and coordinating multiple backend services while maintaining data integrity and low latency was a major challenge. I implemented service isolation and efficient API gateways to manage requests and ensured consistent data modeling across services.",
+        "year": "2025"
+      },
+      "facialRecognition": {
+        "title": "Facial Recognition System",
+        "description": "Developed a facial recognition system using TensorFlow and OpenCV for secure user authentication in web applications.",
+        "detailedDescription": "This advanced facial recognition system uses deep learning algorithms to identify and verify individuals in real-time. The solution combines TensorFlow for the neural network backbone with OpenCV for image processing, resulting in a highly accurate and responsive system suitable for secure authentication in web applications.",
+        "features": [
+          "Real-time face detection and recognition",
+          "High accuracy using convolutional neural networks",
+          "Secure user authentication system",
+          "Integration with existing web applications",
+          "Privacy-focused design with data protection",
+          "Performance optimization for various hardware configurations"
+        ],
+        "challenges": "Balancing recognition accuracy with performance was the primary challenge. I implemented model optimization techniques and efficient processing algorithms to achieve high accuracy while maintaining reasonable processing speeds even on modest hardware.",
+        "year": "2024"
+      },
+      "gamingEcommerce": {
+        "title": "Gaming E-Commerce Platform",
+        "description": "Built a comprehensive e-commerce platform for gaming products using React.js, Node.js, and MongoDB with secure transaction processing.",
+        "detailedDescription": "This gaming e-commerce platform provides gamers with a seamless shopping experience for purchasing games, hardware, and accessories. The platform features an attractive UI, efficient product filtering, secure payment processing, and comprehensive order management, catering to both casual and serious gamers.",
+        "features": [
+          "Intuitive product browsing and search functionality",
+          "Advanced filtering and sorting options",
+          "Secure shopping cart and checkout process",
+          "User account management with purchase history",
+          "Product reviews and ratings system",
+          "Responsive design for mobile and desktop users"
+        ],
+        "challenges": "Implementing a secure and efficient transaction system while handling a large product database was challenging. I designed an optimized database structure and implemented secure payment processing integration while ensuring fast loading times for product listings.",
+        "year": "2022"
+      },
+      "devops": {
+        "title": "DevOps CI/CD Project",
+        "description": "Implemented CI/CD pipelines with Jenkins, Docker, SonarQube, Prometheus, and Grafana for automated testing, deployment, and monitoring.",
+        "detailedDescription": "This project focused on implementing robust DevOps practices for a microservices-based application. The CI/CD pipeline automates the entire software delivery process, from code commit to production deployment, with quality gates at each stage ensuring efficient and reliable software deployment.",
+        "features": [
+          "Containerized microservices architecture using Docker",
+          "Jenkins pipelines for continuous integration and deployment",
+          "Automated code quality checks with SonarQube",
+          "Comprehensive monitoring with Prometheus and Grafana dashboards",
+          "Infrastructure as Code practices",
+          "Automated security scanning and vulnerability assessment"
+        ],
+        "challenges": "The main challenge was integrating various tools into a cohesive pipeline while ensuring security and compliance. I implemented standardized pipeline definitions across multiple services and developed automated rollback mechanisms for failed deployments.",
+        "year": "2023"
+      }
+    },
     "githubContributions": "GitHub Contributions",
     "loading": "Loading...",
     "errorFetching": "Error fetching GitHub data",
@@ -121,10 +330,26 @@
     "contributionGraph": "Contribution Graph",
     "less": "Less",
     "more": "More",
-    "viewProfileOnGitHub": "View Profile on GitHub"
+    "viewProfileOnGitHub": "View Profile on GitHub",
+    "avatarAlt": "{{username}}'s avatar",
+    "noMediaAvailable": "No media available",
+    "viewProject": "View Project",
+    "technologiesUsed": "Technologies Used",
+    "projectChallenges": "Challenges",
+    "projectFeatures": "Key Features",
+    "closeButton": "Close",
+    "viewProject": "View Project",
+    "viewDetails": "View Details",
+    "exploreMoreOnGitHub": "Explore More on GitHub"
   },
   "contact": {
     "pageTitle": "Contact Information",
+    "headerTitle": "Contact Me",
+    "headerDescription": "Interested in working together? Feel free to get in touch using the contact form below or through any of my social media channels.",
+    "formSectionTitle": "Send a Message",
+    "availabilityTitle": "Availability",
+    "availabilityDescription": "I'm currently available for freelance work and open to discussing new opportunities. Let's collaborate on your next project!",
+    "hireMeButton": "Hire Me",
     "contactInfo": {
       "emailLabel": "Email",
       "phoneLabel": "Phone",
