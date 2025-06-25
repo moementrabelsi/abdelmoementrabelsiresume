@@ -211,7 +211,7 @@
     "projectData": {
       "aideProjet": {
         "titleKey": "projects.projectData.aideProjet.title",
-        "defaultTitle": "AideProjet - Online Formation Platform",
+        "defaultTitle": "AideProjet - Online E-learning Platform",
         "descriptionKey": "projects.projectData.aideProjet.description",
         "defaultDescription": "Developed a comprehensive e-learning platform enabling instructors to create courses and students to access educational content through an intuitive interface.",
         "detailedDescriptionKey": "projects.projectData.aideProjet.detailedDescription",
